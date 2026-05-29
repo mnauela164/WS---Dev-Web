@@ -1,0 +1,20 @@
+p{
+    padding: 5px;
+    border-width: 5px;
+    border-color: rgb(230, 110, 190);
+    border-style: solid;
+    border-radius: 10px;
+}
+
+p{
+    border-width: 10px 5px 2px 20px;
+    border-color: rgb(94, 184, 94) rgb(187, 187, 116) blue black;
+    border-radius: 10px 20px 20px 5px;
+    border-style: ridge
+}
+
+p{
+    /* espessura cor estila da borda */
+    border: 3px royalblue solid;
+    border-radius: 10px;
+}

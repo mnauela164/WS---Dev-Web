@@ -1,0 +1,12 @@
+p{
+    /*largura*/
+    width: 200px;
+    /*altura*/
+    height: 160px;
+    padding: 10px;
+    border: 3px rgb(165, 60, 121) solid;
+    border-radius: 10px;
+    margin: 50px;
+    background-color: pink;
+    color: black;
+}
