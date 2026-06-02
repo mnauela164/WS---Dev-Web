@@ -1,0 +1,25 @@
+html{
+    background-color: #d7c7be;
+    font-size: 20px;
+}
+
+h1 {
+    font-size: 32px;
+}
+body {
+    background-color: #b3c5ba;
+    width: 50%;
+    font-size: 2em;
+}
+
+.pai {
+    background-color: #88c3b5;
+    width: 50%;
+    font-size: 3em;
+}
+
+.filho {
+    background-color: #d0dccb;
+    width: 50%;
+    font-size: 1rem;
+}
