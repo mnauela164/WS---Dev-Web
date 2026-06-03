@@ -1,0 +1,13 @@
+a {
+    background-color: rgb(159, 43, 226);
+    color: white;
+    padding: 10px 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:hover{
+    background-color: rgb(32, 132, 165);
+    text-decoration:underline;
+}
