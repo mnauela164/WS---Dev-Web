@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 5</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Crie um formulário para cadastro de sabores de sorvete, com um campo <select> para escolher o
+tamanho do sorvete e um <datalist> com sugestões de sabores. Estilize conforme sua escolha usando CSS -->
+</head>
+<body>
+    <form action="">
+        <h1>Formulário de Cadastro de Sabores de Sorvete</h1>
+
+        <label for="flavor">Sabor do Sorvete:</label>
+        <input list="flavors" id="flavor" name="flavor" required>
+        <datalist id="flavors">
+            <option value="Chocolate">
+            <option value="Baunilha">
+            <option value="Morango">
+            <option value="Menta">
+            <option value="Caramelo">
+        </datalist>
+        <br><br>
+
+        <label for="size">Tamanho do Sorvete:</label>
+        <select id="size" name="size" required>
+            <option value="">Selecione o tamanho</option>
+            <option value="Pequeno">Pequeno</option>
+            <option value="Médio">Médio</option>
+            <option value="Grande">Grande</option>
+        </select>
+        <br><br>
+
+        <button type="submit">Cadastrar Sabor</button>
+</body>
+</html>
