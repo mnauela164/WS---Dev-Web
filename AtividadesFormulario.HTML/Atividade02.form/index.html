@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 02</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="">
+    <h1>Formulário</h1><br>
+    <label for="numero">Quantidade de produtos:</label>
+    <input type="number" min="2" max="10" value="5"  title="Digite sua idade">
+    <br><br>
+    <label for=" telefone">Telefone para contato: </label>
+    <input type="tel" pattern="[0-9]{2}-[0-9]{5}-[0-9]{4}" placeholder="Digite seu telefone" title="Digite seu telefone no formato: 99-99999-9999">
+    <br><br>
+    <div class="container">Avalie seu nível de satisfação
+        <div class="emoji-display" id="emoji">🐵</div>
+        <input type="range" id="satisfacao" min="0" max="4" value="2">
+    </div>
+</body><br>
+    <label for="confirmação">Enviar Formulário</label>
+    <input type="submit" value="Enviar">
+    <label for="limpar">Limpar Formulário</label>
+    <input type="reset" value="Limpar">
+</html>
