@@ -1,0 +1,29 @@
+label {
+    margin-top: 8px;
+    background-color: rgb(183, 138, 224);
+    border-radius: 10px;
+    padding: 10px;
+    padding-left: 10px;
+    width: 400px;
+}
+
+body {
+    background-color: #fdeecd;
+    margin: 0;
+    padding: 30px 60px;
+}
+
+form {
+    background-color: #580647;
+    width: 450px;
+    height: 260px;
+    padding: 20px 50px;
+    border-radius: 10px;
+    box-shadow: 5 5 10px #44332b;
+}
+
+h1 {
+    color: #f5e0d6;
+    margin: 0px;
+    margin-bottom: 10px;
+}
