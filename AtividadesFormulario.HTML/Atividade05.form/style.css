@@ -1,0 +1,49 @@
+body {
+    background-color: #fdeecd;
+    margin: 0;
+    padding: 30px 60px;
+}
+
+
+form {
+    background-color: #d881c5;
+    width: 450px;
+    height: 340px;
+    padding: 20px 50px;
+    border-radius: 10px;
+    box-shadow: 5 5 10px #44332b;
+}
+
+label{
+    display: block;
+    margin-top: 8px;
+    background-color: #d9d5a7;
+    border-radius: 10px;
+    padding: 10px;
+    padding-left: 10px;
+    width: 400px;
+}
+h1, h2{
+    background-color:  #d881c5;
+    border-radius: #d8c181;
+    margin: 6px;
+ 
+}
+
+select{
+    margin-top: 8px;
+    background-color: rgb(227, 205, 248);
+    border-radius: 10px;
+    padding: 10px;
+    padding-left: 10px;
+}
+
+#ice-cream-choice {
+    margin-top: 8px;
+    background-color: rgb(227, 205, 248);
+    border-radius: 10px;
+    padding: 10px;
+    padding-left: 10px;
+    border: none;
+}
+

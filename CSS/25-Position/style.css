@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+.elemento{
+    color: white;
+    font-size: 30px;
+    width: 250px;
+    height: 250px;
+    text-align: center;
+}
+.estatico{
+   background-color: navy;
+   position: static;
+}
+ 
+.relativo{
+    background-color: coral;
+    position: relative;
+    top: 50px;
+    left: 100px;
+}
+ 
+.absoluto{
+   background-color: brown;
+   position: absolute;
+   top: 0;
+   left: 300px;
+}
+
+.relativo-pai{
+    background-color: crimson;
+    position: relative;
+    width: 400px;
+    height: 400px;
+}
+
+.absoluto-filho {
+    background-color: pink;
+    position: absolute;
+    width: 400px;
+    height: 150px;
+    left: 150px;
+    top: 50px;
+}
+.absoluto-pai{
+    background-color: #ff7f81;
+    position: relative;
+    width: 550px;
+    height: 340px;
+    top: 60px;
+}

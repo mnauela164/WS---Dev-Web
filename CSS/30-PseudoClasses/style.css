@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*:houver-Quando o mouse passar por cima do elemento*/
+button:hover {
+    background-color: #2e9458;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px;
+}
+
+/*:focus-Quando o elemento estiver em foco*/
+input:focus {
+    border: 2px solid #3498db;
+    outline: none;
+    border-radius: 5px;
+}
+
+/*:active-Quando o elemento estiver sendo ativado*/
+button:active {
+    background-color: #2e9458;
+    color: #fff;
+    padding: 10px;
+}
+
+/*:visited-Quando o link tiver sido visitado*/
+a:visited {
+    color: #3498db;
+}
+
+/*checked-Quando um checkbox ou radio estiver marcado*/
+input:checked {
+    width: 20px;
+    height: 20px;
+}
+
+/*disabled-Quando o elemento estiver desabilitado*/
+input:disabled {
+    background-color: #ccc;
+    color: #000;
+}
+
+/*:first-child-Seleciona o primeiro filho de um elemento 
+:last-child-Seleciona o último filho de um elemento
+:nth-child(n)-Seleciona o enésimo filho de um elemento*/
+li:first-child {
+    color: #3498db;
+}
+
+li:last-child {
+    color: #2e9458;
+}
+
+li:nth-child(2) {
+    color: #85cfa4;
+}

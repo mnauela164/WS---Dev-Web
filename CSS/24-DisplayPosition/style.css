@@ -1,0 +1,23 @@
+li{
+    background-color: rgb(214, 210, 172);
+    color: lightsalmon;
+}
+.block li{
+    display: block;
+    width: 100px;
+    margin: 5px;
+}
+.inline li{
+    display: inline;
+    padding: 5px;
+    margin: 5px;
+}
+.inline-block li{
+    display: inline-block;
+    width: 100px;
+    padding: 10px;
+    margin: 5px;
+}
+.none li{
+    display: none;
+}

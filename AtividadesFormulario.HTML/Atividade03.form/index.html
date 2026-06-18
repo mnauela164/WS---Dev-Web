@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 03</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="">
+    <h1>Agenda de Consulta </h1>
+    <label for="data">Data desejada da Consulta: </label>
+    <input type="date" name="data" id="data">
+    <br><br>
+    <label for="hora">Horario do Agendamento: </label>
+    <select name="hora" id="hora" required>
+       <option value="" selected disabled>Selecione...</option>
+       <option value="hora">7:50</option>
+       <option value="hora">8:20</option>
+       <option value="hora">8:45</option>
+       <option value="hora">9:10</option>
+       <option value="hora">9:40</option>
+    </select>
+    <br><br>
+    <label for="mes">Qual mês de Pagamento (máximo 1 mês após a consulta): </label>
+    <select name="mes" id="mes" required>
+       <option value="" selected disabled>Selecione...</option>
+       <option value="mes">Junho</option>
+       <option value="mes">Julho</option>
+       <option value="mes">Agosto</option>
+       <option value="mes">Setembro</option>
+       <option value="mes">Outubro</option>
+       <br></select>
+       <br><br><br>
+       <label for="confirmação">Agendar Consulta</label>
+       <input type="submit" value="Agendar">
+       <label for="limpar">Limpar Formulário</label>
+       <input type="reset" value="Limpar">
+    </form>
+</body>
+</html>

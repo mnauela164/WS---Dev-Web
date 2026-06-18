@@ -1,0 +1,32 @@
+body {
+    background-color: #e79494;
+    margin: 0;
+    padding: 30px 60px;
+}
+
+h1, h2{
+    color: #861212;
+    margin: 0px;
+    margin-bottom: 10px;
+}
+
+form {
+    background-color: #e0e0e0;
+    width: 400px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 5 5 10px #861212;
+}
+
+label {
+    display: block;
+    margin-top: 8px;
+}
+
+input, select, textarea {
+    width: 100px;
+    padding: auto;
+    box-sizing: border-box;
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+}

@@ -1,0 +1,43 @@
+body {
+    background-color: #a0b6c7;
+    margin: 0;
+    padding: 30px 60px;
+}
+
+
+form {
+    background-color: #819fd8;
+    width: 450px;
+    height: 620px;
+    padding: 20px 50px;
+    border-radius: 10px;
+    box-shadow: 5 5 10px #44332b;
+}
+
+label{
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    padding-left: 10px;
+    width: 400px;
+}
+h1 {
+    background-color:  #d881c5;
+    border-radius: #d8c181;
+    margin: 6px;
+ 
+}
+
+p {
+    margin-left: 14px;
+    margin-bottom: 5px;
+    margin-top: 20px;
+}
+
+input, select, button {
+    margin-top: 8px;
+    background-color: rgb(223, 165, 168);
+    border-radius: 10px;
+    padding: 10px;
+    padding-left: 10px;
+}
