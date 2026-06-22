@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.texto {
+    color: rgb(126, 67, 67);
+    line-height: 3;
+    word-spacing: 10px;
+
+}
+
+.caixa {
+    border: 2px solid #333;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+.tamanho-fixo {
+    background-color: coral;
+    width: 300px;
+    height: 400px;
+}
+
+.largura {
+    background-color: lightblue;
+    min-width: 400px;
+    max-width: 500px;
+    width: 80px;
+}
+
+.altura {
+    background-color: lightcoral;
+    width: 400px;
+    height: 150px;
+    min-height: 270px;
+    max-height: 200px;
+}
+
+.overflow-x {
+    background-color: lightgreen;
+    width: 300px;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.overflow-y {
+    background-color: rgb(230, 230, 115);
+    width: 300px;
+    height: 150px;
+    overflow-y: auto;
+}
+
+.overflow-total {
+    background-color: rgb(115, 230, 230);
+    width: 300px;
+    height: 150px;
+    overflow: auto;
+    white-space: nowrap;
+}

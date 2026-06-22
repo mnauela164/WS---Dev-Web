@@ -1,27 +1,40 @@
-.float-left{
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container {
+    border: 2px solid #333;
+    padding: 10px;
+    width: 700px;
+    height: 500;
+}
+
+.bloco-esquerdo {
     float: left;
+    background-color: crimson;
+    color: white;
+    padding: 10px;
     width: 200px;
     height: 200px;
-    background-color: #ff7f81;
-    margin: 10px;
+    text-align: center;
+    margin-right: 20px;
 }
- 
-.float-right{
+
+.bloco-direito {
     float: right;
+    background-color: blue;
+    color: white;
+    padding: 10px;
     width: 200px;
     height: 200px;
-    background-color: #ff5c71;
-    margin: 10px;
+    text-align: center;
 }
-.no-float{
-    width: 200px;
-    height: 200px;
-    background-color: #ffa492;
-    margin: 10px;
-}
-.clear{
+
+.texto-final {
     clear: both;
-    background-color: #ffa492;
-    color: white
-    ;
+    margin-top: 10px;
+    text-align: center;
 }
