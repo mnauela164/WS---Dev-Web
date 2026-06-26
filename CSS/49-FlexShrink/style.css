@@ -5,20 +5,18 @@
 }
 
 .container {
-    max-width: 300px;
+    display: flex;
+    width: 300px;
     margin: 5px;
     padding: 10px;
     background-color: navy;
 }
 
-.item {
+.item{
     background-color: coral;
     color: #fff;
-    margin: 5px;
     padding: 10px;
     text-align: center;
+    width: 120px;
 }
 
-.flex {
-    display: flex;
-}

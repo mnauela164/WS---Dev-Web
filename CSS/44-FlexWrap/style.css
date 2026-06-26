@@ -5,6 +5,7 @@
 }
 
 .container {
+    display: flex;
     max-width: 300px;
     margin: 5px;
     padding: 10px;
@@ -19,6 +20,14 @@
     text-align: center;
 }
 
-.flex {
-    display: flex;
+.nowrap {
+    flex-wrap: nowrap;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.wrap-reverse {
+    flex-wrap: wrap-reverse;
 }

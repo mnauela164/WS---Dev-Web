@@ -1,11 +1,12 @@
 * {
     margin: 0;
-    padding: 0;
+    padding: 0; 
     box-sizing: border-box;
 }
 
 .container {
-    max-width: 300px;
+    display: flex;
+    width: 500px;
     margin: 5px;
     padding: 10px;
     background-color: navy;
@@ -14,11 +15,18 @@
 .item {
     background-color: coral;
     color: #fff;
-    margin: 5px;
     padding: 10px;
     text-align: center;
 }
 
-.flex {
-    display: flex;
+.basis-auto .item {
+    flex-basis: auto;
+}
+
+.basis-px .item {
+    flex-basis: 200px;
+}
+
+.basis-porcentagem .item {
+    flex-basis: 50%;
 }
